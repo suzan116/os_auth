@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osool</title>
+    <link rel="stylesheet" href="./auth.css">
+    <link rel="stylesheet" href="./btn.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./mobile.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <img src="./img/logo-ar.svg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <form action="access.php" id="form-wrap">
+        <div class="container">
+            <h1>
+                إنشاء حساب
+            </h1>
+            <p>
+                انضم لعائلة أصول للتنمية والإبداع
+            </p>
+            <div class="form-group">
+                <label for="name">الإسم<span>*</span></label>
+                <input type="name" name="name" id="name" placeholder="أدخل اسمك هنا">
+            </div>
+
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني<span>*</span></label>
+                <input type="email" name="email" id="email" placeholder="أدخل البريد الإلكتروني هنا">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">رقم الهاتف<span>*</span></label>
+                <input type="tel" name="phone" id="phone" placeholder="أدخل رقم الهاتف">
+            </div>
+
+            <div class="form-group">
+                <label for="password">كلمة المرور<span>*</span></label>
+                <input type="password" name="password" id="password" placeholder="يجب أن لا تقل كلمة المرور عن 6 خانات">
+            </div>
+
+            <p>
+                عند الضغط على انشاء حساب فإنك توافق على
+                 <a href="#">
+                     سياسة الإستخدام
+                 </a>
+            </p>
+
+            
+            <button type="submit" class="btn">انشاء حساب</button>
+            
+            <p>
+                لديك حساب؟
+                <a href="login.html">
+                    <strong>تسجيل الدخول</strong>
+                </a>
+            </p>
+        </div>
+    </form>
+    <footer id="main-footer">
+        <p>
+            جميع الحقوق محفوظة &copy; شركة أصول للتدريب والاستشارات 2022
+        </p>
+    </footer>
+</body>
+
+</html>

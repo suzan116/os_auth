@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osool</title>
+    <link rel="stylesheet" href="./auth.css">
+    <link rel="stylesheet" href="./btn.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <img src="./img/logo-ar.svg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <form action="access.php" id="form-wrap">
+        <div class="container">
+            <h1>
+                تسجيل الدخول
+            </h1>
+            <p>
+                قم بتعبئة المعلومات في الحقول
+            </p>
+
+            <div class="form-group">
+                <label for="email" for="phone">البريد الإلكتروني أو رقم الهاتف<span>*</span></label>
+                <input type="text"  name="text" id="text" placeholder="أدخل البريد الإلكتروني هنا أو رقم الهاتف">
+            </div>
+
+
+            <div class="form-group">
+                <label for="password">كلمة المرور<span>*</span></label>
+                <input type="password" name="password" id="password" placeholder="يجب أن لا تقل كلمة المرور عن 6 خانات">
+            </div>
+
+            
+            <button type="submit" class="btn">تسجيل الدخول</button>
+            
+
+            <p>
+                <a href="#">
+                    نسيت كلمة المرور؟
+                </a>
+            </p>
+
+            <p>
+                ليس لديك حساب؟
+                <a href="signup.html">
+                    <strong>إنشاء حساب</strong>
+
+                </a>
+            </p>
+        </div>
+    </form>
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>
+            جميع الحقوق محفوظة &copy; شركة أصول للتدريب والاستشارات 2022
+        </p>
+    </footer>
+</body>
+
+</html>

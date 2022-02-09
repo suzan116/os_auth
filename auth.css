@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body{
+    font-family: 'Dubai-Light';
+    font-weight: 600;
+
+}
+
+a{
+    color: #a71c24;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 24px;
+    color: #3f3f3f;
+
+}
+
+span{
+    color: #a71c24;
+}
+
+/* navbar */
+#navbar {
+    width: 100% !important;
+    /* position:static !important; */
+    /* max-width: 100%; */
+    height: 82px;
+    background: #000;
+    text-align: center;
+    padding-top: 20px;
+    /* overflow: auto; */
+}
+
+#navbar img{
+    width: 176.67px;
+    height: 50px;
+}
+
+/* Form */
+
+#form-wrap .container p{
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 15px;
+    color: #3f3f3f;
+}
+
+#form-wrap .container{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    border: solid 0.5px #ececec;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16); */
+    /* filter: drop-shadow(0px 4px 16px rgba(87, 86, 86, 0.16)); */
+}
+
+#form-wrap .form-group{
+    padding: 6px;
+    text-align: right;
+}
+
+#form-wrap .form-group label{
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+#form-wrap .form-group input{
+    width: 380px;
+    height: 45px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #b3b2b2;
+    padding-right: 7px;
+}
+
+#form-wrap .form-group ::placeholder{
+    /* font-family: Dubai; */
+    /* font-weight: 500; */
+    font-size: 15px;
+    text-align: right;
+    color: #b2b2b2;
+}
+
+ 
